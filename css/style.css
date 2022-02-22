@@ -1,0 +1,96 @@
+/* Reset */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Rubik Mono One', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* General */
+.container{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+
+nav{
+    z-index: 1;
+    position: fixed;
+    top: 30px;
+    right: 30px;
+    width: 100%;
+    text-align: right;
+}
+
+section>img{
+    width: 400px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:
+    translate(-50%, -50%);
+    filter: drop-shadow(0 0 0.75rem black);
+}
+h2:hover{
+    
+    transform: rotate(5deg);
+    transition-duration: 0.3s;
+    transform-origin: -500px;
+
+}
+section h2{
+    width: 400px;
+    font-size: 25px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:
+    translate(-50%, -50%);
+    font-weight: 400;
+    line-height: 50px;
+    color:yellow;
+    text-align: center;
+    text-shadow: 4px 3px 0 #000000;
+    filter: drop-shadow(0 0 0.1rem black);
+}
+section:last-child h2{
+    color: #00b900;
+}
+
+li,a{
+    text-align: center;
+    font-size: 18px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: inline-block;
+    color: #000000;
+}
+
+a{  
+    border: 5px solid white;
+    text-decoration: none;
+    line-height: 45px;
+}
+a:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+#first-shoes{
+    position: relative;
+    background-color: #ff0000;
+}
+#second-shoes{
+    position: relative;
+    background-color:#008000;
+}
+#third-shoes{
+    position: relative;
+    background-color: #fbfb04;
+}
+
+
+
+
